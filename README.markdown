@@ -4,17 +4,16 @@ A Python wrapper for the [Forrst API](http://forrst.com/api).
 
 ## Requirements
 
-* Python 2.6+
 * simplejson
-* httplib2
 * urllib
+* urllib2
 
 ## Example
 
 ~~~ python
 from pynecone.pynecone import Post
 
-# Get a beer by ID.
+# Get all posts 
 print Post.all()
 ~~~
 

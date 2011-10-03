@@ -1,7 +1,7 @@
 from request import Request
 
 class User(object):
-    
+
     @classmethod
     def auth(self, **kwargs):
         return Request.post("users/auth", kwargs)

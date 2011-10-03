@@ -1,3 +1,3 @@
 class Settings(object):
 
-    host            = 'http://forrst.com/api/v2/'
+    host            = 'https://forrst.com/api/v2/'

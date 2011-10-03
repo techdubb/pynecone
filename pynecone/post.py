@@ -1,7 +1,7 @@
 from request import Request
 
 class Post(object):
-    
+
     @classmethod
     def show(self, **kwargs):
         return Request.get("posts/show", kwargs)
